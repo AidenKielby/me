@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title></title>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+            $(function() {
+                $("#visible").click(function() {
+                    $('#invisible').toggleClass("show");
+                });
+            });
+        </script>
+        <style>
+            .hide{display:none;}
+            .show{display:block;}
+        </style>
+    </head>
+    <body>
+        <h1>Im Freaking Cool</h1>
+        <p id="visible">Cick To Learn A Secret</p>
+        <p id="invisible" class="hide">the midocondria is the powerhouse of the cell</p>
+    </body>
+</html>
